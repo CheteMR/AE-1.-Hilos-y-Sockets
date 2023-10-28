@@ -1,0 +1,38 @@
+package hilosSockets;
+
+public class Pelicula { 
+	// Declaramos las variables privadas
+    private int id;
+    private String titulo;
+    private String director;
+    private double precio;
+
+    public Pelicula(int id, String titulo, String director, double precio) {
+    	// Constructor público con cuatro parámetros (id, título, director y precio)
+        this.id = id;
+        this.titulo = titulo;
+        this.director = director;
+        this.precio = precio;
+    }
+    
+// A continuación se crean los Getter para que nos devuelvan las películas por ID, Título, Director y Precio
+    
+    public int getId() {
+        return id;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getDirector() {
+        return director;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+   
+}
+
